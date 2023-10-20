@@ -154,3 +154,7 @@ cython_debug/
 
 # Local working directory
 scratch
+.Rproj.user
+
+# R files
+.Rhistory
