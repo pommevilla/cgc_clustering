@@ -45,9 +45,9 @@ if __name__ == "__main__":
         names=[
             "pul_id",
             "pmid",
-            "substrate_1",
-            "substrate_2",
-            "substrate_3",
+            "substrate_04142023",
+            "substrate_09012022",
+            "substrate_07012022",
             "predicted_enzymes",
             "notes",
         ],
@@ -72,4 +72,4 @@ if __name__ == "__main__":
         vectorized_df = vectorize_df(dataframe)
         print(f"Dims of {fout} after vectoring: {dataframe.shape}")
         print(dataframe.head())
-        vectorized_df.to_csv(f"output/{fout}")
+        vectorized_df.to_csv(f"output/vectorized_puls/{fout}")
